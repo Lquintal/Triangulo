@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    //Declaracion de las variables
     private EditText editTextA, editTextB, editTextC;
     private Button btnOperacion;
     private TextView textView;

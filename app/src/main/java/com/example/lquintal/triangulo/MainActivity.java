@@ -70,9 +70,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             toast1.show();
         }
 
-        limpiar();
+        Limpiar();
     }
-    public void limpiar(){
+    //Metodo para limpiar los EditTexts
+    public void Limpiar(){
         editTextA.setText("");
         editTextB.setText("");
         editTextC.setText("");
